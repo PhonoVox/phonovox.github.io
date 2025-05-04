@@ -1,5 +1,5 @@
 ---
-title: Golden
+title: Classic Twelve Mono Block Power Amplifier
 subtitle: Website Design
 layout: default
 modal-id: 3

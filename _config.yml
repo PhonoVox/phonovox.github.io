@@ -8,7 +8,7 @@ description: "Write an awesome description for your new site here. You can edit 
 
 
 # Team names, titles and social links
-people:
+# people:
 - name: Kay Garland
   pic: 1
   position: Lead Designer
@@ -43,7 +43,7 @@ people:
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+#social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
@@ -56,7 +56,7 @@ social:
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
+#address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 

@@ -1,11 +1,11 @@
 ---
-title: Classic Twelve Mono Block Power Amplifier
+title: Simplice Preamplifier
 subtitle: Website Design
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: classic12.jpg
-thumbnail: classic12_thumb.jpg
+img: simplice_full.jpg
+thumbnail: simplice_thumb.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

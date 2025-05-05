@@ -1,11 +1,11 @@
 ---
-title: Q Line Preamplifier
+title: Prelude MM Phono Stage Amplifier
 subtitle: Website Design
 layout: default
-modal-id: 4
-date: 2014-07-15
-img: qline_full.jpg
-thumbnail: qline_thumb.jpg
+modal-id: 6
+date: 2014-07-13
+img: prelude.jpg
+thumbnail: prelude.JPG
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

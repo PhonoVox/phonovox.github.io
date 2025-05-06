@@ -268,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #5A3E2B;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/cover_valve.jpeg');
     background-position: center center;
@@ -294,7 +294,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;

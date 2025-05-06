@@ -268,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #1E2A38;
+    color: #EADCC5;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/cover_valve.jpeg');
     background-position: center center;

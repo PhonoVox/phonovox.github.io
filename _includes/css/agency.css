@@ -175,12 +175,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #1E2A38; 
 }
 
-/*
+
 .navbar-default .navbar-brand {
-    font-family: {{ site.data.template.font.primary }};
-    //"Notable","Helvetica Neue",Helvetica,Arial,cursive;//
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fff;
-} */
+} 
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,

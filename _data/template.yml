@@ -1,6 +1,6 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary:  F3222 # french roast
+  primary:  4F3222 # french roast
   secondary: EADCC5 
   secondary-dark: 1E2A38
   muted: 1E2A38

@@ -329,7 +329,7 @@ header .intro-text .intro-heading {
       min-height: 100svh;   /* preferred, safe full screen height on modern iOS */
       padding-top: 120px;
       padding-bottom: 120px;
-      background-size: cover;
+      /*background-size: cover;*/
       background-position: center top;
 
       background-attachment: initial; /*attempt to stop google scroll effect*/

@@ -326,13 +326,14 @@ header .intro-text .intro-heading {
 @media (max-width: 767px) {
     header {
        /* min-height: 90vh;  google fix  fallback for older browsers IMG coverage*/
-      min-height: 100svh;   /* preferred, safe full screen height on modern iOS */
+      /* min-height: 100svh;  preferred, safe full screen height on modern iOS */
+      height: 100%;
       padding-top: 120px;
       padding-bottom: 120px;
-      background-position: center;
+      background-position: center center;
 
       background-size: cover;
-      background-repeat: no-repeat;
+      background-repeat: fixed;
     }
   
     header .btn {

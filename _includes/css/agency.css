@@ -291,7 +291,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/dark.compressed.cover.jpg');
+    background-image: url('{{ site.baseurl }}/img/vibrant.compressed.cover.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -323,6 +323,18 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
+    header {
+        min-height: 100vh; /* Make header take full screen height mobil test */
+      }
+
+      header .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+      } /*button mobile test*/
+
+
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;

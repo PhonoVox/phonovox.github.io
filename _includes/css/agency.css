@@ -396,6 +396,10 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.underlined-link {
+    text-decoration: underline;
+} /*aboutus link styling inline html*/
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

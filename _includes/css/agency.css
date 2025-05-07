@@ -705,6 +705,14 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+/*text written is navy*/
+section#contact input,
+section#contact textarea {
+    color: #1E2A38;
+    font-family: {{ site.data.template.font.primary }};
+}
+/*text written in navy*/
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -716,7 +724,9 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+
 }
+
 
 section#contact .form-group input.form-control {
     height: auto;
@@ -735,7 +745,7 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #1E2A38;
+    color: #bbb;
     /*bbb placeholder before*/
 }
 
@@ -743,14 +753,14 @@ section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #1E2A38; /*bbb placeholder before*/
+    color: #bbb; /*bbb placeholder before*/
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #1E2A38;/*bbb placeholder before*/
+    color: #bbb;/*bbb placeholder before*/
 }
 
 section#contact:-ms-input-placeholder {

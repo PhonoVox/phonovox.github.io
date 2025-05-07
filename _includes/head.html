@@ -4,6 +4,11 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+
+    <meta property="og:image" content="https://gubdesignr.github.io/img/portfolio/classic12.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630"> <!--thumbnail image imessage-->
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- MEEMMEMEEE Load Font Awesome 6 (CDN version, includes latest icons) -->

@@ -339,23 +339,12 @@ header .intro-text .intro-heading {
     }
   }
 
-  @media (max-width: 767px) { /*alignment button and title*/
+  @media (max-width: 767px) {
     header .intro-text {
-      text-align: center;
-    }
-  
-    header .intro-heading {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    header .btn {
-      display: inline-block;
-      margin-left: auto;
-      margin-right: auto;
+      padding-top: 40vh; /* Pushes content ~40% down the screen */
+      padding-bottom: 5vh; /* Optional: spacing below button */
     }
   }
-
   /*mobile testing*/
 
 

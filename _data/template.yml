@@ -1,6 +1,6 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 6A4E3B
+  primary: 603F2B
   secondary: EADCC5 
   secondary-dark: 1E2A38
   muted: 1E2A38
@@ -10,4 +10,5 @@ font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
-#5A3E2B og brown, 4B3621 mocha muddy
+#5A3E2B og brown, 4B3621 mocha muddy, 
+#6A4E3B dark copper better version of og brown

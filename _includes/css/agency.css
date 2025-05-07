@@ -325,7 +325,8 @@ header .intro-text .intro-heading {
 /*mobile testing*/
 @media (max-width: 767px) {
     header {
-      min-height: 100vh; /* fills screen height */
+      min-height: 90vh;     /* fallback for older browsers */
+      min-height: 100svh;   /* preferred, safe full screen height on modern iOS */
       padding-top: 120px;
       padding-bottom: 120px;
       background-size: cover;

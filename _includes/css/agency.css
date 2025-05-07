@@ -325,7 +325,7 @@ header .intro-text .intro-heading {
 /*mobile testing*/
 @media (max-width: 767px) {
     header {
-      min-height: 90vh;     /* fallback for older browsers */
+      min-height: 90vh;     /* fallback for older browsers IMG coverage*/
       min-height: 100svh;   /* preferred, safe full screen height on modern iOS */
       padding-top: 120px;
       padding-bottom: 120px;
@@ -334,10 +334,28 @@ header .intro-text .intro-heading {
     }
   
     header .btn {
-      font-size: 16px; /* more in line with desktop */
+      font-size: 16px; /* more in line with desktop btn size */
       padding: 14px 28px;
     }
   }
+
+  @media (max-width: 767px) { /*alignment button and title*/
+    header .intro-text {
+      text-align: center;
+    }
+  
+    header .intro-heading {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    header .btn {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   /*mobile testing*/
 
 

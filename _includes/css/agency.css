@@ -329,11 +329,11 @@ header .intro-text .intro-heading {
       min-height: 100svh;   /* preferred, safe full screen height on modern iOS */
       padding-top: 120px;
       padding-bottom: 120px;
-      /*background-size: cover;*/
-      background-position: center top;
+      background-position: center;
 
-      background-attachment: initial; /*attempt to stop google scroll effect*/
-      background-size: 100% auto;
+      background-attachment: scroll; /*attempt to stop google scroll effect*/
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   
     header .btn {
@@ -342,7 +342,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text {
-        padding-top: 20vh; /* Pushes content ~40% down the screen */
+        padding-top: 20vh; /* Pushes content ~20% down the screen */
         padding-bottom: 5vh; /* Optional: spacing below button */
       }
   }

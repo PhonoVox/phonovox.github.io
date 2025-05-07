@@ -43,7 +43,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary-dark }}; /*test forform*/
 }
 
 
@@ -705,13 +705,13 @@ section#contact {
     background-repeat: no-repeat;
 }
 
-/*text written is navy*/
+/*text written is navy
 section#contact input,
 section#contact textarea {
     color: #1E2A38;
     font-family: {{ site.data.template.font.primary }};
 }
-/*text written in navy*/
+text written in navy - testing*/
 
 section#contact .section-heading {
     color: #fff;

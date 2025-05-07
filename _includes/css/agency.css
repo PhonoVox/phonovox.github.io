@@ -341,7 +341,7 @@ header .intro-text .intro-heading {
 
   @media (max-width: 767px) {
     header .intro-text {
-      padding-top: 40vh; /* Pushes content ~40% down the screen */
+      padding-top: 20vh; /* Pushes content ~40% down the screen */
       padding-bottom: 5vh; /* Optional: spacing below button */
     }
   }

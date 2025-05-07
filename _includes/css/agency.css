@@ -44,7 +44,7 @@ a:focus,
 a:active,
 a.active {
     color: #{{ site.data.template.color.secondary-dark }}; /*test forform*/
-}
+} /*just makes hover links in products navy ie no change so just underlines*/
 
 
 
@@ -705,13 +705,13 @@ section#contact {
     background-repeat: no-repeat;
 }
 
-/*text written is navy
+/*text written is navy*/
 section#contact input,
 section#contact textarea {
     color: #1E2A38;
     font-family: {{ site.data.template.font.primary }};
 }
-text written in navy - testing*/
+/*text written in navy and font consistent w site*/
 
 section#contact .section-heading {
     color: #fff;

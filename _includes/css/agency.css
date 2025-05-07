@@ -331,14 +331,14 @@ header .intro-text .intro-heading {
       padding-bottom: 120px;
       background-size: cover;
       background-position: center top;
+
+      background-attachment: initial; /*attempt to stop google scroll effect*/
+      background-size: 100% auto;
     }
   
     header .btn {
       font-size: 16px; /* more in line with desktop btn size */
       padding: 14px 28px;
-
-      background-attachment: initial; /*attempt to stop google scroll effect*/
-      background-size: 100% auto;
     }
 
     header .intro-text {

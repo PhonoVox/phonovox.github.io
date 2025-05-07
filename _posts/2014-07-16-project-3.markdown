@@ -1,5 +1,5 @@
 ---
-title: Simplice Preamplifier
+title: Semplice Preamplifier
 subtitle: Website Design
 layout: default
 modal-id: 3

@@ -4,8 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 6
 date: 2014-07-13
-img: prelude.jpg
-thumbnail: prelude.JPG
+img: prelude.full.jpg
+thumbnail: prelude.thumb.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

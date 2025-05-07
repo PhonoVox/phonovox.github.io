@@ -336,15 +336,17 @@ header .intro-text .intro-heading {
     header .btn {
       font-size: 16px; /* more in line with desktop btn size */
       padding: 14px 28px;
+
+      background-attachment: initial; /*attempt to stop google scroll effect*/
+      background-size: 100% auto;
     }
+
+    header .intro-text {
+        padding-top: 20vh; /* Pushes content ~40% down the screen */
+        padding-bottom: 5vh; /* Optional: spacing below button */
+      }
   }
 
-  @media (max-width: 767px) {
-    header .intro-text {
-      padding-top: 20vh; /* Pushes content ~40% down the screen */
-      padding-bottom: 5vh; /* Optional: spacing below button */
-    }
-  }
   /*mobile testing*/
 
 

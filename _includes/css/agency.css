@@ -46,9 +46,7 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-.portfolio-caption a:hover {
-    color: #000;  /* Darker hover color for the links */
-  }
+
 
 h1,
 h2,

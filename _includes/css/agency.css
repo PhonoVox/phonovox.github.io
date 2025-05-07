@@ -71,6 +71,23 @@ h6 {
     background-color: #222;
 }
 
+/* button test for products*/
+.btn-default {
+    background-color: #5A3E2B;
+    border-color: #5A3E2B;
+    color: #ffffff;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default:active,
+  .btn-default.active {
+    background-color: #EADCC5;
+    border-color: #EADCC5;
+    color: #ffffff;
+  }
+  /* button test for products*/
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;

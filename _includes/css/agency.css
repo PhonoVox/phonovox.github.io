@@ -944,8 +944,8 @@ ul.social-buttons li a:active {
 }
 
 .modal-body .btn-primary:hover {
-    background-color: #EADCC5; /*cream on hover*/
-    border-color: #EADCC5;
+    background-color: #990000; /*darker red on hover*/
+    border-color: #990000;
 }
 
 /* Change the input text color */

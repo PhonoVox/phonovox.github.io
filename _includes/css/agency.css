@@ -509,6 +509,30 @@ Products overall description styling*/
     }
 }
 
+/*Mobile product hover prompt for clarity*/
+@media (max-width: 767px) {
+  .portfolio-item {
+    position: relative;
+  }
+
+  .tap-hint {
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(30, 42, 56, 0.85); /* muted with opacity */
+    color: #EADCC5; /* your secondary */
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 2;
+    pointer-events: none;
+  }
+}
+
+
+
+
 .timeline {
     position: relative;
     padding: 0;

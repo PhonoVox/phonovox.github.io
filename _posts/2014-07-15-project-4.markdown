@@ -1,6 +1,6 @@
 ---
 title: Q Line Preamplifier
-subtitle: Website Design
+subtitle: 
 layout: default
 modal-id: 4
 date: 2014-07-15
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Tailored for compatibility with Quad II power amplifiers, this 2-input preamp also runs on 6C4-P and 6N3P valves, maintaining sonic cohesion with vintage British gear.
 
 ---

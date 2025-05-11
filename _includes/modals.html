@@ -16,7 +16,7 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
+                            <!-- <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
@@ -29,7 +29,19 @@
                                     <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                     </strong>
                                 </li>
-                            </ul>
+                            </ul> -->
+
+
+                             <!-- Email Notification Form -->
+                              <p>Enter your email below and we will notify you when this product is available for purchase on the site later this week.</p>
+                        <form action="https://app.sender.net/forms/your-form-id-here/submit" method="POST" target="_blank">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Notify Me</button>
+                        </form>
+                        
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

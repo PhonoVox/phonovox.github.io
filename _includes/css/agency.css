@@ -510,6 +510,9 @@ Products overall description styling*/
 }
 
 /*Mobile product hover prompt for clarity*/
+.tap-hint {
+  display: none; /* Hide by default */
+}
 @media (max-width: 767px) {
   .portfolio-item {
     position: relative;

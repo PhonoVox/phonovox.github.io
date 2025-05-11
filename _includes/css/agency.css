@@ -409,6 +409,11 @@ p.text-muted {
 }
 Products overall description styling*/
 
+/*product descrtiption h3 primary formatting span*/
+.primary-font {
+    font-family: {{ site.data.template.font.primary }}; /* Replace with your primary font */
+}
+
 
 
 @media(min-width:768px) {

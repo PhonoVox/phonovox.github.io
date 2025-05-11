@@ -939,13 +939,13 @@ ul.social-buttons li a:active {
 
 /* Change the 'Notify Me' button to red or secondary dark color */
 .modal-body .btn-primary {
-    background-color: #1E2A38; /*b30000 Red color, adjust this to the secondary dark of your site */
-    border-color: #1E2A38; /* Ensures border matches the background */
+    background-color: #b30000; /*b30000 Red color, adjust this to the secondary dark of your site */
+    border-color: #b30000; /* Ensures border matches the background */
 }
 
 .modal-body .btn-primary:hover {
-    background-color: #EADCC5; /*990000darker red on hover*/
-    border-color: #EADCC5;
+    background-color: #990000; /*990000darker red on hover*/
+    border-color: #990000;
 }
 
 /* Change the input text color */

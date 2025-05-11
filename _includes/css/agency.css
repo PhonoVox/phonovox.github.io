@@ -391,7 +391,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -409,10 +409,10 @@ p.text-muted {
 }
 Products overall description styling*/
 
-/*product descrtiption h3 primary formatting span*/
+/*product descrtiption h3 primary formatting span - pointless
 .primary-font {
-    font-family: {{ site.data.template.font.primary }}; /* Replace with your primary font */
-}
+    font-family: {{ site.data.template.font.primary }}; Replace with your primary font /
+}*/
 
 
 

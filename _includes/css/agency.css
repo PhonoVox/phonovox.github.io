@@ -932,6 +932,23 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+/* new notify me button styling adjustments*/
+/* Make the Close button smaller */
+.close-modal .btn-default {
+    font-size: 0.8em; /* Makes the close button smaller */
+    padding: 5px 10px; /* Adjusts padding */
+}
+
+/* Change the 'Notify Me' button to red or secondary dark color */
+.modal-body .btn-primary {
+    background-color: #b30000; /* Red color, adjust this to the secondary dark of your site */
+    border-color: #b30000; /* Ensures border matches the background */
+}
+/* Change the input text color */
+.modal-body .form-control {
+    color: #1E2A38;  /* Change this to your preferred text color (e.g., dark grey or black) */
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.secondary }};
